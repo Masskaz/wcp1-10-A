@@ -1,0 +1,928 @@
+ /* ブラウザがそれぞれ持っているCSSをリセットするため */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/*header箱*/
+header {
+	width: 100%;
+	height: 70px;
+	background-color: #EC715F;
+}
+
+.header-box1 {
+	width: 1024px;
+	height: 100%;
+	margin: 0 auto;
+}
+
+/*header内容*/
+.header-logo {
+	height: 100%;
+	float: left;
+}
+
+.nav-list {
+	height: 100%;
+	text-align: right;
+	line-height: 70px;
+}
+
+.nav-list-item {
+	font-size: 16px;
+	color: #FAFAFA;
+	display: inline-block;
+	margin: 0 30px;
+	list-style:  none;
+}
+
+/*main-visual*/
+.main-visual {
+	width: 100%;
+	height: 650px;
+	background-image: url(img/mv.png);
+	background-size: 100% 100%;
+	background-position: center;
+}
+.main-visual-name {
+	color: #FAFAFA;
+	font-size: 64px;
+	text-align: center;
+	padding-top: 200px;
+}
+.main-visual-text {
+	color: #FAFAFA;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+/*main1-box*/
+.main1 {
+	width: 100%;
+	background-color: #ECEFF1;
+}
+/*main1文章*/
+.portfolio {
+	font-size: 32px;
+	color: #000000;
+	text-align: center;
+	padding-top: 90px;
+}
+.portfolio::after {
+	content: "" ;
+	display: block;
+	width: 70px;
+    height: 3px;
+    background-color: #EC715F;
+    margin: 8px auto 0 auto;
+}
+.portfolio-text {
+	font-size: 16px;
+	color: #000000;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+/*main1画像*/
+.port-visual {
+	width: 920px;
+	background-color: #ECEFF1;
+	margin:0 auto;
+	padding: 30px 0 90px 0;
+}
+.port-visual1 {
+	width: 300px;
+	height: 250px;
+	background-image: url(img/sketch.jpg);
+	background-size: cover;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.port-visual2 {
+	width: 300px;
+	height: 250px;
+	background-image: url(img/websuku.png);
+	background-size: cover;
+	background-position: center;
+	float: left;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.port-visual3 {
+	width: 300px;
+	height: 250px;
+	background-image: url(img/write.jpg);
+	background-size: cover;
+	background-position: center;
+	float: left;
+	margin-bottom: 10px;
+}
+.port-visual4 {
+	width: 300px;
+	height: 250px;
+	background-image: url(img/webcamp.png);
+	background-size: cover;
+	background-position: center;
+	float: left;
+	margin-right: 10px;
+}
+.port-visual5 {
+	width: 300px;
+	height: 250px;
+	background-image: url(img/talk.jpg);
+	background-size: cover;
+	background-position: center;
+	float: left;
+	margin-right: 10px;
+}
+.port-visual6 {
+	width: 300px;
+	height: 250px;
+	background-image: url(img/webcamp-mother.png);
+	background-size: cover;
+	background-position: center;
+	float: left;
+}
+
+/*main2-box*/
+.main2 {
+	width: 100%;
+	background-color: white;
+}
+/*main2文章*/
+.feature {
+	font-size: 32px;
+	color: #000000;
+	text-align: center;
+	padding-top: 90px;
+}
+.feature::after {
+	content: "" ;
+	display: block;
+	width: 70px;
+	height: 3px;
+	background-color: #EC715F;
+    margin: 8px auto 0px auto;
+}
+.feature-text {
+	font-size: 16px;
+	color: #000000;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+/*main2内容*/
+.strength-box {
+	width: 980px;
+    margin: 0 auto;
+}
+/*icon*/
+i{
+ font-size: 60px;
+}
+
+.strength1-icon {
+	text-align: center;
+}
+.strength2-icon {
+	text-align: center;
+}
+.strength3-icon {
+	text-align: center;
+}
+/* strength1 */
+.strength1-box {
+	width: 320px;
+    float: left;
+    margin-right: 10px;
+}
+
+.sterength1-icon {
+	margin: 0 auto;
+}
+
+.strength1 {
+	font-size: 20px;
+	color: #000000;
+	text-align: center;
+}
+.strength1-text {
+	font-size: 16px;
+	color: #000000;
+	text-align: left;
+}
+
+/* strength2 */
+.strength2-box {
+	width: 320px;
+	float: left;
+	margin-right: 10px;
+}
+.strength2 {
+	font-size: 20px;
+	color: #000000;
+	text-align: center;
+}
+.strength2-text {
+	font-size: 16px;
+	color: #000000;
+	text-align: left;
+}
+
+/* strength3 */
+.strength3-box {
+	width: 320px;
+	float: left;
+	margin-bottom: 90px;
+}
+.strength3 {
+	font-size: 20px;
+	color: #000000;
+	text-align: center;
+}
+.strength3-text {
+	font-size: 16px;
+	color: #000000;
+	text-align: left;
+}
+
+/*main3-box*/
+
+.main3 {
+	width: 100%;
+	background-color: #ECEFF1;
+}
+
+/*main3 メイン説明 箱*/
+.profile {
+	font-size: 32px;
+	color: #000000;
+	text-align: center;
+	padding-top: 90px;
+}
+.profile::after {
+	content: "" ;
+	display: block;
+	width: 70px;
+	height: 3px;
+	background-color: #EC715F;
+    margin: 8px auto 0px auto;
+}
+.profile-main-text {
+	font-size: 16px;
+	color: #000000;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+/*main3 プロフィール関係*/
+.profile-main {
+	width: 1024px;
+	margin: 0 auto;
+}
+.profile-photo-box {
+	width: 512px;
+    background-color: #ECEFF1;
+	float: left;
+}
+.photo {
+	background-image: url(img/my-icon.jpg);
+	border-radius: 50%;
+	width: 250px;
+	height: 250px;
+	margin: 0 auto;
+	margin-bottom: 90px;
+} 
+
+/*main3プロフィール サブテキスト*/
+.profile-text-box {
+	width: 501px;
+    background-color: #ECEFF1;
+	float: left;
+}
+.my-name {
+	font-size: 20px;
+	color: #000000;
+
+}
+.my-name-text {
+	font-size: 16px;
+	color: #000000;
+	text-align: left;
+	margin-top: 5px;
+}
+
+.my-skills {
+	font-size: 20px;
+	color: #000000;
+	margin-top: 8px;
+}
+
+.my-skills-text {
+	font-size: 16px;
+	color: #000000;
+	text-align: left;
+	margin-top: 5px;
+}
+
+/*main4*/
+.main4 {
+	width: 100%;
+	background-color: white;
+}
+
+.main4-box {
+	width: 800px;
+	margin: 0 auto;
+	padding-bottom: 90px;
+}
+
+.main4-little {
+	width: 800px;
+	margin: 0 auto;
+}
+
+.contact {
+	font-size: 32px;
+	color: #000000;
+	text-align: center;
+    padding-top: 90px;
+}
+.contact::after {
+	content: "" ;
+	display: block;
+	width: 70px;
+	height: 3px;
+	background-color: #EC715F;
+    margin: 8px auto 0px auto;
+}
+
+.contact-main-text {
+	font-size: 16px;
+	color: #000000;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+/*main4-mail.tell*/
+.main4-little2 {
+	width: 400px;
+	float: left;
+	margin: 0 auto;
+}
+.main4-little2-A {
+	width: 200px;
+	margin: 0 auto;
+}
+.mail {
+	font-size: 20px
+	color: #000000;
+	padding-bottom: 5px;
+	text-align: left;
+}
+.mail-address {
+	font-size: 16px
+	color: #000000;
+	text-decoration: underline;
+	padding-bottom: 20px;
+}
+.tell {
+	font-size: 20px
+	color: #000000;
+	padding-bottom: 5px;
+}
+.tell-number {
+	font-size: 16px
+	color: #000000;
+	text-decoration: underline;
+}
+
+/*main4-SNS*/
+.main4-little3 {
+	width: 400px;
+	float: left;
+}
+
+.main4-little3-A {
+	width: 200px;
+	margin: 0 auto;
+}
+.sns {
+	font-size: 20px;
+	padding-bottom: 5px;
+	text-align: left;
+}
+
+.social {
+  font-size: 50px;
+}
+
+.fa-facebook-f {
+	margin-right: 20px;
+}
+
+.fa-twitter {
+	margin-right: 20px;
+}
+
+/*footer*/
+footer {
+	width: 100%;
+	height: 60px;
+	background-color: #EC715F; 
+}
+.footer-text {
+	color: #FAFAFA;
+	font-size: 16px;
+	text-align: center;
+	line-height: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*レスポンシブ対応*/
+@media screen and (max-width:767px){
+	header {
+		width: 100%;
+		height: 50px;
+		background-color: #EC715F;
+	}
+
+	.header-box1 {
+		width: auto;
+		height: 100%;
+		margin: 0 auto;
+	}
+
+	/*header内容*/
+	.header-logo {
+		height: 100%;
+		float: left;
+	}
+
+	.nav-list {
+		display: none;
+	}
+
+	.nav-list-item {
+		display: none;
+	}
+
+	.humberger-menu {
+    	width: 44px;
+    	height: 44px;
+    	border: solid #FAFAFA;
+        float: right;
+        margin: 3px 8px;
+        border-width: 2px;
+        display: inline-block;
+    }
+    .humberger-line {
+    	width: 30px;
+    	height: 1px;
+    	background-color: #FAFAFA;
+    	margin: 9px 5px;
+    }
+
+	/*main-visual*/
+	.main-visual {
+		width: 100%;
+		height: 650px;
+		background-image: url(IMG/code.png);
+		background-size: 100% 100%;
+		background-position: center;
+		margin: 0 auto;
+	}
+	.main-visual-name {
+		color: #FAFAFA;
+		font-size: 40px;
+		text-align: center;
+		padding-top: 200px;
+		margin: 0 5% 0 5%;
+	}
+	.main-visual-text {
+		color: #FAFAFA;
+		font-size: 18px;
+		text-align: center;
+		margin: 10px 5% 0 5%;
+	}
+
+	/*main1-box*/
+	.main1 {
+		width: 100%;
+		background-color: #ECEFF1;
+		margin: 0 auto;
+	}
+	/*main1文章*/
+	.portfolio {
+		font-size: 32px;
+		color: #000000;
+		text-align: center;
+		padding-top: 90px;
+		margin: 0 5% 0 5%;
+	}
+	.portfolio::after {
+		content: "" ;
+		display: block;
+		width: 70px;
+	    height: 3px;
+	    background-color: #EC715F;
+	    margin: 8px auto 0 auto;
+	}
+	.portfolio-text {
+		font-size: 16px;
+		color: #000000;
+		text-align: center;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		margin: 0 5% 0 5%;
+	}
+
+	/*main1画像*/
+	.port-visual {
+		width: 300px;
+		background-color: #ECEFF1;
+		margin:0 auto;
+		padding: 30px 0 90px 0;
+	}
+	.port-visual1 {
+		display: none;
+	}
+	.port-visual2 {
+		width: 300px;
+		height: 250px;
+		background-image: url(img/websuku.png);
+		background-size: cover;
+		background-position: center;
+		float: none;
+	}
+	.port-visual3 {
+		display: none;
+	}
+	.port-visual4 {
+	width: 300px;
+	height: 250px;
+	background-image: url(img/webcamp.png);
+	background-size: cover;
+	background-position: center;
+	float: none;
+}
+	.port-visual5 {
+	display: none;
+}
+	.port-visual6 {
+	width: 300px;
+	height: 250px;
+	background-image: url(img/webcamp-mother.png);
+	background-size: cover;
+	background-position: center;
+	float: none;
+}
+
+	/*main2-box*/
+	.main2 {
+		width: 100%;
+		background-color: white;
+	}
+	/*main2文章*/
+	.feature {
+		font-size: 32px;
+		color: #000000;
+		text-align: center;
+		padding-top: 90px;
+		margin: 0 5% 0 5%;
+	}
+	.feature::after {
+		content: "" ;
+		display: block;
+		width: 70px;
+		height: 3px;
+		background-color: #EC715F;
+	    margin: 8px auto 0px auto;
+	}
+	.feature-text {
+		font-size: 16px;
+		color: #000000;
+		text-align: center;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		margin: 0 5% 0 5%;
+	}
+
+	/*main2内容*/
+	.strength-box {
+		width: 100%;
+	    margin: 0 auto;
+	    margin-bottom: 90px;
+	}
+	/*icon*/
+	i{
+	 font-size: 60px;
+	}
+
+	.strength1-icon {
+		text-align: center;
+		margin: 0 5% 0 5%;
+	}
+	.strength2-icon {
+		text-align: center;
+		margin: 0 5% 0 5%;
+	}
+	.strength3-icon {
+		text-align: center;
+		margin: 0 5% 0 5%;
+	}
+	/* strength1 */
+	.strength1-box {
+		width: 320px;
+		height: auto;
+	    float: none;
+	    margin: 0 auto;
+	    padding-bottom: 10px;
+	}
+
+	.sterength1-icon {
+		font-size: 60px;
+	}
+
+	.strength1 {
+		font-size: 20px;
+		color: #000000;
+	}
+	.strength1-text {
+		font-size: 16px;
+		color: #000000;
+	}
+
+	/* strength2 */
+	.strength2-box {
+		width: 320px;
+		height: auto;
+		float: none;
+		margin: 0 auto;
+		margin-bottom: 10px;
+	}
+	.strength2 {
+		font-size: 20px;
+		color: #000000;
+	}
+	.strength2-text {
+		font-size: 16px;
+		color: #000000;
+		text-align: left;
+	}
+
+	/* strength3 */
+	.strength3-box {
+		width: 320px;
+		height: auto;
+		float: none;
+		margin: 0 auto;
+	}
+	.strength3 {
+		font-size: 20px;
+		color: #000000;
+	}
+	.strength3-text {
+		font-size: 16px;
+		color: #000000;
+		text-align: left;
+	}
+
+	/*main3-box*/
+
+	.main3 {
+		width: 100%;
+		background-color: #ECEFF1;
+	}
+
+	/*main3 メイン説明 箱*/
+	.profile {
+		font-size: 32px;
+		color: #000000;
+		text-align: center;
+		padding-top: 90px;
+		margin: 0 5% 0 5%;
+
+	}
+	.profile::after {
+		content: "" ;
+		display: block;
+		width: 70px;
+		height: 3px;
+		background-color: #EC715F;
+	    margin: 8px auto 0px auto;
+	}
+	.profile-main-text {
+		font-size: 16px;
+		color: #000000;
+		text-align: center;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		margin: 0 5% 0 5%;
+	}
+
+	/*main3 プロフィール関係*/
+	.profile-main {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.profile-photo-box {
+		width: 100%;
+	    background-color: #ECEFF1;
+		float: left;
+	}
+	.photo {
+		background-image: url(img/my-icon.jpg);
+		border-radius: 50%;
+		width: 250px;
+		height: 250px;
+		margin: 0 auto;
+		margin-bottom: 20px;
+	} 
+
+	/*main3プロフィール サブテキスト*/
+	.profile-text-box {
+		width: 100%;
+	    background-color: #ECEFF1;
+		float: left;
+		margin-bottom: 90px;
+	}
+	.my-name {
+		font-size: 20px;
+		color: #000000;
+		text-align: center;
+		margin: 0 5% 0 5%;
+	}
+	.my-name-text {
+		font-size: 16px;
+		color: #000000;
+		text-align: center;
+		margin: 5px 5% 0 5%;
+	}
+
+	.my-skills {
+		font-size: 20px;
+		color: #000000;
+		text-align: center;
+		margin: 20px 5% 0 5%;
+
+	}
+
+	.my-skills-text {
+		font-size: 16px;
+		color: #000000;
+		text-align: center;
+		margin: 5px 5% 0 5%;
+	}
+
+	/*main4*/
+	.main4 {
+		width: 100%;
+		background-color: white;
+	}
+	.main4-box {
+		width: 100%;
+		margin: 0 auto;
+		padding-bottom: 90px;
+	}
+
+	.main4-little {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.contact {
+		font-size: 32px;
+		color: #000000;
+		text-align: center;
+	    padding-top: 90px;
+	    margin: 0 5% 0 5%;
+	}
+	.contact::after {
+		content: "" ;
+		display: block;
+		width: 70px;
+		height: 3px;
+		background-color: #EC715F;
+	    margin: 8px auto 0px auto;
+	}
+
+	.contact-main-text {
+		font-size: 16px;
+		color: #000000;
+		text-align: center;
+		padding-top: 30px;
+		padding-bottom: 30px;
+		margin: 0 5% 0 5%;
+	}
+
+	/*main4-mail.tell*/
+	.main4-little2 {
+		width: 100%;
+		float: left;
+		margin: 0 auto;
+	}
+	.main4-little2-A {
+		width: 200px;
+		margin: 0 auto;
+	}
+	.mail {
+		font-size: 20px
+		color: #000000;
+		padding-bottom: 5px;
+		text-align: center;
+		margin: 0 5% 0 5%;
+	}
+	.mail-address {
+		font-size: 16px
+		color: #000000;
+		text-decoration: underline;
+		padding-bottom: 20px;
+		text-align: center;
+		margin: 0 5% 0 5%;
+	}
+	.tell {
+		font-size: 20px
+		color: #000000;
+		padding-bottom: 5px;
+		text-align: center;
+		margin: 0 5% 0 5%;
+	}
+	.tell-number {
+		font-size: 16px;
+		color: #000000;
+		text-decoration: underline;
+		padding-bottom: 20px;
+		text-align: center;
+		margin: 0 5% 0 5%;
+	}
+
+	/*main4-SNS*/
+	.main4-little3 {
+		width: 100%;
+		float: left;
+	}
+
+	.main4-little3-A {
+		width: 100%;
+		margin: 0 auto;
+	}
+	.sns {
+		font-size: 20px;
+		padding-bottom: 5px;
+		text-align: center;
+		margin: 0 5% 0 5%;
+	}
+
+	.social {
+	  font-size: 50px;
+	  text-align: center;
+	  margin: 0 5% 0 5%;
+	}
+
+	.fa-facebook-f {
+		margin-right: 20px;
+	}
+
+	.fa-twitter {
+		margin-right: 20px;
+	}
+
+	/*footer*/
+	footer {
+		width: 100%;
+		height: 60px;
+		background-color: #EC715F; 
+	}
+	.footer-text {
+		color: #FAFAFA;
+		font-size: 100%;
+		text-align: center;
+		line-height: 60px;
+		margin: 0 5% 0 5%;
+	}
+}
